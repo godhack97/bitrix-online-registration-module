@@ -106,6 +106,8 @@ CREATE TABLE bookings (
     status ENUM('pending', 'confirmed', 'cancelled') DEFAULT 'pending'
 );
 ```
+![ER-Диаграмма](er.png "ER диаграмма")
+
 ## 4. Интерфейс пользователя
 
 ### Форма записи
