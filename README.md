@@ -105,7 +105,7 @@ CREATE TABLE bookings (
     booking_date DATETIME,
     status ENUM('pending', 'confirmed', 'cancelled') DEFAULT 'pending'
 );
-
+```
 ## 4. Интерфейс пользователя
 
 ### Форма записи
